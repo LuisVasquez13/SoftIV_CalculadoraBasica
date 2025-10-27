@@ -229,7 +229,6 @@
             btnBack.TabIndex = 19;
             btnBack.Text = "←";
             btnBack.UseVisualStyleBackColor = true;
-            btnBack.Click += BtnBack_Click;
             // 
             // FormCalculadora
             // 

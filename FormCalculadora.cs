@@ -121,7 +121,7 @@ namespace SoftIV_CalculadoraBasica
         {
             string texto = txtDisplay.Text;
 
-            // Evita borrar si el display solo tiene "0"
+            // Para el display 0
             if (texto == "0")
                 return;
 
@@ -132,10 +132,9 @@ namespace SoftIV_CalculadoraBasica
                 txtDisplay.Text = "0"; // Si queda vacío, mostrar 0
         }
 
-        // Este evento se puede usar si quieres manejar cambios automáticos en el display
+        // Este evento para manejar cambios automáticos en el display
         private void txtDisplay_TextChanged(object sender, EventArgs e)
         {
-            // Actualmente vacío, se puede usar para validaciones adicionales
         }
     }
 }
